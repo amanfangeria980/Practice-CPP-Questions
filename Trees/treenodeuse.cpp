@@ -4,7 +4,7 @@ using namespace std;
 
 Treenode<int>* takeInput(){
     int rootData;
-    cout<<"Enter Data: ";
+    cout<<"Enter Root Data: ";
     cin>>rootData;
     Treenode<int>* root=new Treenode<int>(rootData);
     int n;
