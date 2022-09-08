@@ -36,5 +36,5 @@ int main()
     return 0;
 }
 
- //Now, suppose weight of a node is also to be considered in an undirected weighted graph, then, following changes should be made to the code
-    // 1.> we 
+//if graph starts from 0th Node, it's called 0-based graph
+//if graph starts from 1st Node, it's called 1-based graph
