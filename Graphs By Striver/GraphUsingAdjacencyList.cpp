@@ -9,6 +9,7 @@ int main()
 {
     // n->no. of nodes , m->no. of edges
     int n, m;
+    cin>>n>>m;
     // Creating a 2-Dimensional Adjacent List (A array having each index a vector in them similarly like int arr[6], just having vector instead of integer)
     vector<int>adj[n+1];  //suppose it's for graph having 1-based node i.e, no node is zero
     
