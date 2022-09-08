@@ -25,5 +25,7 @@ int main()
     //The above code is for an undirected graph, as u->v and v->u both are connected using edge
     //If,we want to take input for a directed graph, i.e., u->v will only be considered. we will comment the following line:
     // adj_matrix[v][u] = 1;
+
+    //space complexity is O(n^2)
     return 0;
 }
