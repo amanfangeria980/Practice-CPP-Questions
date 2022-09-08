@@ -7,8 +7,11 @@ int main()
 {
     // n->no. of nodes , m->no. of edges
     int n, m;
+    cin>>n>>m;
+
     // Creating a 2-Dimensional Adjacent Matrix
-    int adj_matrix[n + 1][n + 1];
+    //For 0-based graph we will create matrix of NxM (RowsxCols) but, for 1-based graph,we will create matrix of N+1xM+1
+    int adj_matrix[n + 1][m + 1];
     // Marking the box having edges connecting two nodes(let u and v)
     for (int i = 0; i < m; i++)
     {
