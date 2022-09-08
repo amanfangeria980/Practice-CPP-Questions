@@ -27,5 +27,9 @@ int main()
     // adj_matrix[v][u] = 1;
 
     //space complexity is O(n^2)
+
+    //suppose we want to store a weighted graph, we can do something like this:
+    // adj[u][v]=weight;
+    // also, you must take weight as input along with u and v
     return 0;
 }
