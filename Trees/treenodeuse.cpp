@@ -17,6 +17,7 @@ Treenode<int>* takeInput(){
     return root;
 }
 
+
 void printTree(Treenode<int> *root){
     if(root==NULL){
         return;
